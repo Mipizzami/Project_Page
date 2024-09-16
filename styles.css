@@ -19,6 +19,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
+    padding-left: 20%;
 }
 
 .upper {
@@ -34,15 +35,14 @@ body {
 
 .lower {
     display: flex;
-    justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    gap: 50px;
+    gap: 450px;
 }
 
 .logo {
     font-weight: 700;
-    font-size: larger;
+    font-size: 24px;
     margin-left: 100px;
 }
 
@@ -50,18 +50,20 @@ body {
     max-width: 300px;
     display: flex;
     font-weight: 900;
-    font-size: xx-large;
+    font-size: 48px;
     flex-wrap: wrap;
+    color: #F9FAF8;
 }
 
 .about {
     max-width: 300px;
     display: flex;
     flex-wrap: wrap;
+    font-size: 18px;
 }
 
 .signup {
-    background-color: blue;
+    background-color: #3882f6;
 }
 
 .second {
@@ -73,6 +75,9 @@ body {
 
 .random {
     margin: 30px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .container {
@@ -92,20 +97,24 @@ body {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 50px;
+    padding-left: 20%;
+    padding-right: 30%;
 }
 
 .quote {
     display: flex;
     flex-wrap: wrap;
-    max-width: 500px;
+    max-width: 70%;
     justify-content: center;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 .author {
     display: flex;
     justify-content: flex-end;
+    font-weight: 700;
 }
 
 .fourth {
@@ -115,13 +124,14 @@ body {
 }
 
 .border {
-    background-color: blue;
+    background-color: #3882f6;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 2%;
     padding-bottom: 2%;
     display: flex;
     justify-content: flex-end;
+    border-radius: 15px;
 }
 
 .reminder {
@@ -133,7 +143,9 @@ body {
 }
 
 .signup2 {
-
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 10px;
 }
 
 .footer {
